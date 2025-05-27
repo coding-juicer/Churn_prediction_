@@ -6,7 +6,7 @@ import pickle
 # Load pre-trained objects
 model = pickle.load(open('churn_logistic_model.pkl', 'rb'))
 label_encoders = pickle.load(open('label_encoders.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+scaler = pickle.load(open('scaler-2.pkl', 'rb'))
 
 st.title("Logistic Regression for Churn Prediction")
 
